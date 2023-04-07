@@ -1,0 +1,161 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  
+        height: 100vh;
+        box-sizing: border-box;
+        background-color: #4E9FBF;
+        color: #F6F6F6;
+    
+}
+.img a:active, a:selected, a:visited {
+    border: none;
+    outline: none;
+}
+header h1{
+    padding: 50px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.destaque{
+    font-family: 'Dancing Script', cursive;
+    color: blue;
+    font-size: 40px;
+}
+.foto__principal{
+    
+        background-image: url(img/gumball.jpg);
+        background-size: cover;
+        top: 138px;
+        left: 320px;
+        width: 330px;
+        height: 310px;
+        border-radius: 32px;
+        position:absolute;
+        
+        
+        
+}
+.foto__principal:hover{
+    transform: scale(1.1);
+}
+.don1:hover{
+    transform: scale(1.1);
+}
+.don2:hover{
+    transform: scale(1.1);
+}
+.don3:hover{
+    transform: scale(1.1);
+}
+.don4:hover{
+    transform: scale(1.1);
+}
+.baixo1:hover{
+    transform: scale(1.1);
+}
+.baixo2:hover{
+    transform: scale(1.1);
+}
+.baixo3:hover{
+    transform: scale(1.1);
+}
+.ver__mais:hover{
+    transform: scale(1.1);
+}
+.don1{
+    background-image: url(img/rlf.jpg);
+    background-size: cover;
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 690px;
+    top: 138px;
+    border-radius: 32px;
+    
+}
+.don2{
+    background-image: url(img/fof.jpg);
+    background-size: cover;
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 920px;
+    top: 138px;
+    border-radius: 32px;
+    
+}
+.don3{
+    background-image: url(img/no.jpg);
+    background-size: cover;
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 690px;
+    top: 300px;
+    border-radius: 32px;
+   
+}
+.don4{
+    background-image: url(img/int.jpg);
+    background-size: cover;
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 920px;
+    top: 300px;
+    border-radius: 32px;
+    
+}
+.baixo1{
+
+    background-image: url(img/eae.jpg);
+    background-size: cover;
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 330px;
+    top: 470px;
+    border-radius: 32px;
+    
+}
+.baixo2{
+    background-image: url(img/cans.jpg);
+    background-size: cover;
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 590px;
+    top: 470px;
+    border-radius: 32px;
+    
+}
+.baixo3{
+    background-image: url(img/grande.jpg);
+    background-size: cover;
+    position: absolute;
+    width: 280px;
+    height: 150px;
+    left: 842px;
+    top: 470px;
+    border-radius: 32px;
+    
+}
+.ver__mais{
+    text-align: center;
+    background-color: #22D4FD;
+    width: 280px;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    left: 600px;
+    top: 645px;
+    position: absolute;
+}
